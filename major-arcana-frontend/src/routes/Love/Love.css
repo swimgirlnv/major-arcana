@@ -1,0 +1,81 @@
+.LovePage {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+.lp-h1 {
+text-align: center;
+background-color: #c98669;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  margin-top: 0px;
+}
+
+.lp {
+  background-color: #c98669;
+  color: white;
+  border: #c98669;
+  padding-left: 20px;
+  font-size: 14px;
+
+}
+
+.HTF {
+background-color: #c98669;
+color: white;
+padding: 15px 32px;
+text-align: center;
+font-size: 16px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+.HTF:hover {
+background-color: #f5c1ab;
+  color: white;
+}
+
+.cards {
+  padding: 10px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Hero section styles */
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.love-hero {
+  background-color: #c98669;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  max-width: 95%;
+}
+
+.love-hero h1 {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.love-hero p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}

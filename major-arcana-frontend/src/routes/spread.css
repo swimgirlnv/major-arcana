@@ -1,0 +1,74 @@
+.spread-page {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 0px;
+  padding: 20px;
+}
+
+.morning {
+margin-top: 0px;
+}
+
+.reading {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 170px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.front,
+.back {
+  max-width: 175px;
+  height: 250px;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(180deg);
+}
+
+.flip {
+  transform: rotateY(180deg);
+}

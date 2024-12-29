@@ -1,0 +1,233 @@
+.App {
+  margin-top: 0px;
+  text-align: center;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* overflow: scroll; */
+}
+
+
+.a-h1 {
+  margin-top: 0px;
+text-align: center;
+background-color: rgb(225,157,95);
+  color: #ca643a;
+  font-size: 20px;
+  padding: 10px 60px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Career {
+background-color: #30968c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  min-width: 132px;
+}
+
+.Career:hover {
+background-color: #42cfc1;
+  color: white;
+}
+
+.Daily {
+background-color: #b07721;
+  border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    min-width: 132px;
+}
+
+.Daily:hover {
+  background-color: #eba53d;
+  color: white;
+}
+
+.Love {
+background-color: #c98669;
+  border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    min-width: 132px;
+}
+
+.Love:hover {
+background-color: #f5c1ab;
+  color: white;
+}
+
+.Spiritual {
+background-color: DarkGoldenRod;
+  border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    min-width: 132px;
+}
+
+.Spiritual:hover {
+background-color: PaleGoldenRod;
+  color: white;
+}
+
+.item1 {
+  grid-area: choices;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex: 1;
+  min-height: 100vh;
+}
+
+.career-option {
+  background-color: rgb(177,225,205);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    min-width: 132px;
+}
+
+.daily-option {
+  background-color: rgb(255,178,0);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    min-width: 132px;
+}
+
+.love-option {
+  background-color: rgb(248,95,40);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    min-width: 132px;
+}
+
+.background-card {
+  opacity: 90%;
+}
+
+.background-card:hover {
+  opacity: 50%;
+}
+
+.img-container1 .img-btn {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+.img-container2 .img-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img-container3 .img-btn {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: scroll;
+}
+
+/* Hero section styles */
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.logo-img {
+  max-width: 350px;
+  max-height: 100%;
+  margin: 0;
+}
+.hero {
+  background-color: #275c7b;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  max-width: 70%;
+}
+
+.hero h1 {
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  background-color: #eba53d;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #e19d5f;
+}
+
+.meat-of-page {
+  background-color: #f5f5f5;
+}

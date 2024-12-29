@@ -1,0 +1,68 @@
+.TipsPage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.section {
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.logo-img2 {
+  max-width: 250px;
+  max-height: 100%;
+  margin: 0;
+}
+
+/* Hero section styles */
+.hero-container {
+  width: 95%;
+  margin: 10px;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tip-hero {
+  background-color: #275c7b;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  width: 95%;
+}
+
+.tip-hero h1 {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.tip-hero p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.CardLibrary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.library-card {
+  margin: 10px;
+}

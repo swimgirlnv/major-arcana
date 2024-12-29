@@ -1,0 +1,38 @@
+.CardOfTheDay {
+ margin: auto;
+}
+
+/*
+.a-h1 {
+text-align: center;
+background-color: rgb(225,157,95);
+  color: rgb(39,92,123);
+  font-size: 20px;
+  padding: 10px 60px;
+}
+*/
+
+.CotD {
+place-items: center;
+margin: auto;
+background-color: #f1ecc4;
+  color: #ca643a;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.CotD:hover {
+background-color: Blue;
+  color: Gold;
+}
+
+.disabled {
+opacity: 0.6;
+cursor: not-allowed;
+}
